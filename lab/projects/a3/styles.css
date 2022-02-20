@@ -1,0 +1,72 @@
+body{
+    font-family: 'Finger Paint', cursive;
+    background-color: rgb(238, 210, 247);
+    color:rgb(121, 90, 161);
+}
+h1{
+    font-size: 80px;
+}
+
+h1:hover{
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    font-size: 130px;
+    color:rgb(45, 23, 73);
+}
+
+.intereststitle{
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(45, 23, 73);
+    font-size:50px; 
+}
+.interests > div{
+    font-family: 'Finger Paint', cursive;
+    font-size: 250px;
+    color:rgb(255, 144, 186);
+    display: flex;
+    justify-content: flex-start;
+}
+table{
+    align-items: center;
+    font-size: 100px;
+    text-align: center;
+    color:rgb(124, 79, 167);
+    border: 10px
+}
+th, td{
+    font-size: 100px;
+    background-color:rgb(205, 199, 243);
+}
+caption{
+    font-family: 'Bebas Neue', cursive;
+    color:rgb(45, 23, 73);
+    font-size: 50px;
+}
+
+@media screen and (max-width: 960px) {
+	.interests > div{
+		font-size: 80px;
+        flex-direction: column;
+    }
+        h1{
+            text-align: right;
+            font-size: 90px;
+            font-family: 'Bebas Neue', cursive;
+            color:rgb(45, 23, 73);
+        }
+        table{
+            align-items: center;
+            font-size: 40px;
+            text-align: center;
+            color:rgb(124, 79, 167);
+            border: 2px
+        }
+        th, td{
+            font-size: 40px;}
+
+            caption{
+                font-family: 'Bebas Neue', cursive;
+                color:rgb(45, 23, 73);
+                font-size: 50px;
+            }
+}
