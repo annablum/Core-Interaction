@@ -1,4 +1,5 @@
 body{
+    
     font-family: 'Finger Paint', cursive;
     background-color: rgb(238, 210, 247);
     color:rgb(121, 90, 161);
@@ -31,10 +32,16 @@ table{
     font-size: 100px;
     text-align: center;
     color:rgb(124, 79, 167);
-    border: 10px
+    border: 25px;
+    border-style: double;
+    border-spacing: 30px;
 }
-th, td{
-    font-size: 100px;
+th{
+    font-size: 120px;
+    background-color:rgb(205, 199, 243);
+}
+td{
+    font-size: 80px;
     background-color:rgb(205, 199, 243);
 }
 caption{
@@ -59,14 +66,57 @@ caption{
             font-size: 40px;
             text-align: center;
             color:rgb(124, 79, 167);
-            border: 2px
+            border: 2px;
+            border-style: double;
+            border-spacing: 20px;
         }
-        th, td{
-            font-size: 40px;}
+        th{
+            font-size: 50px;}
+            td{
+                font-size:30px;
+            }
 
             caption{
                 font-family: 'Bebas Neue', cursive;
                 color:rgb(45, 23, 73);
                 font-size: 50px;
             }
+}
+@media print {
+body{
+    color:rgb(107, 47, 84);
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    text-align: right;
+    font-size: 100px;
+    color:rgb(124, 63, 202);
+}
+.intereststitle{
+    font-size:35px;
+    color:rgb(255, 173, 221);
+}
+
+.interests > div{
+    font-size: 80px;
+color:rgb(114, 8, 49); }
+
+table{
+    border: 20px;
+    border-style: double;
+    border-spacing: 20px;
+}
+th{
+    font-size:50px;
+    color:rgb(76, 39, 124);
+    border: 20px;
+}
+td{
+    color:rgb(76, 39, 124);
+    font-size:30px;
+}
+caption{
+    font-size:35px;
+    color:rgb(255, 173, 221);
+}
 }
