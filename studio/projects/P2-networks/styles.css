@@ -73,8 +73,8 @@ h1{
     .intro{
         margin-top: 0%;
         margin-left: 6%;
-        font-size: 20px;
-        max-width: 420px;
+        font-size: 15px;
+        max-width: 400px;
         text-align: justify;
         }
     .nav{
@@ -82,7 +82,7 @@ h1{
     justify-content: center;
     text-align: center;
     gap: 30px;
-    font-size: 60px;
+    font-size: 50px;
     }
 
 
