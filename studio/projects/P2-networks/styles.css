@@ -14,8 +14,12 @@ body{
     font-weight: bold;
     text-align:center;
 }
+.question{
+    cursor: help;
+}
 .question:hover {
     color:white;
+    cursor: help;
 }
 .exclam:hover {    
     color:white;
