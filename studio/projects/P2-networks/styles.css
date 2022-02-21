@@ -1,0 +1,85 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    margin-top:5%;
+    display:flex;
+    justify-content: center;
+    position:sticky;
+    gap: 100px;
+    font-size: 150px;
+    color:rgba(179, 178, 178, 0.253);
+    font-weight: bold;
+    text-align:center;
+}
+.question:hover {
+    color:white;
+}
+.exclam:hover {    
+    color:white;
+}
+.quotes:hover {    
+    color:white;
+}
+.dash:hover {   
+    color:white;
+}
+.apost:hover {
+    color:white;
+    
+}
+.period:hover {
+    color:white;
+}
+.comma:hover {
+    color:white;
+}
+.semi:hover {
+    color:white;
+}
+.col:hover {
+    color:white;
+}
+
+.first{
+    display:flex;
+    justify-content: center;
+    width: 1100px;
+    text-align: justify;
+}
+
+.intro{
+    margin: 10%;
+    margin-left: 20%;
+    font-size: 30px;
+    width: 1100px;
+    text-align: justify;
+}
+h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+@media screen and (max-width: 900px) {
+    h1{
+        font-size: 15px;
+        font-weight: bold;
+}
+    .intro{
+        margin-top: 0%;
+        margin-left: 6%;
+        font-size: 20px;
+        max-width: 420px;
+        text-align: justify;
+        }
+    .nav{
+    margin-left: 3%;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 60px;
+    }
+
+
+}
