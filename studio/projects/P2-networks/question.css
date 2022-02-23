@@ -1,0 +1,83 @@
+.nav{
+    font-family: 'RanchersRegular';
+   font-weight: normal;
+   font-style: normal;
+    margin-top:0%;
+    display:flex;
+   direction:column;
+   text-align: center;
+   justify-content: right;
+    position: sticky;
+    gap: 100px;
+    font-size: 150px;
+    color:rgba(179, 178, 178, 0.253);
+    font-weight: bold;
+    text-align:right;
+}
+.question{
+    cursor: help;
+}
+.question:hover {
+    color:white;
+    cursor: help;
+}
+.exclam:hover {    
+    color:white;
+}
+.quotes:hover {    
+    color:white;
+}
+.dash:hover {   
+    color:white;
+}
+.apost:hover {
+    color:white;
+    
+}
+.period:hover {
+    color:white;
+}
+.comma:hover {
+    color:white;
+}
+.semi:hover {
+    color:white;
+}
+.col:hover {
+    color:white;
+}
+
+
+body {
+    background-color: black;
+    cursor: help;
+    background-image: url("references/Untitled-3new.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   font-family: sans-serif;
+}
+
+
+    p {
+        color:white;
+        font-size: 4100px;
+        font-family: 'RanchersRegular';
+        font-weight: normal;
+        font-style: normal;
+        opacity:0%;
+        text-align: center;
+        margin:0%;
+     }
+
+     
+
+
+/*img{
+    max-width: 1700px;
+    object-fit: cover;
+    }
+    body {
+    background-color: black;
+    cursor: help;
+  }*/
