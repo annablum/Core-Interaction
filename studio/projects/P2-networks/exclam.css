@@ -1,10 +1,7 @@
-
-
-
 body {
     background-color: black;
-    cursor: help;
-    background-image: url("references/Untitled-3new.png");
+    /*cursor: help;*/
+    background-image: url("references/exclam.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -22,15 +19,3 @@ body {
         text-align: center;
         margin:0%;
      }
-
-     
-
-
-/*img{
-    max-width: 1700px;
-    object-fit: cover;
-    }
-    body {
-    background-color: black;
-    cursor: help;
-  }*/

@@ -52,11 +52,11 @@ body {
     justify-content: center;
     text-align: justify;
     background-color: black;
-    cursor: help;
+    /*cursor: help;*/
     line-height: 40px;
   }
   body {
-    background-image: url("references/outline2.png");
+    background-image: url("references/exclamoutline.png");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -72,10 +72,4 @@ strong{
     font-weight: normal;
     font-style: normal;
     font-size:60px;
-   /* animation: enlarge 10s ease-in-out infinite;*/
 }
-
-/*img{
-    max-width: 1700px;
-    object-fit: cover;
-    }*/
