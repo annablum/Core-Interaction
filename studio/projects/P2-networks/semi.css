@@ -1,0 +1,21 @@
+body {
+    background-color: black;
+    /*cursor: help;*/
+    background-image: url("references/semi.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   font-family: sans-serif;
+}
+
+
+    p {
+        color:white;
+        font-size: 4100px;
+        font-family: 'RanchersRegular';
+        font-weight: normal;
+        font-style: normal;
+        opacity:0%;
+        text-align: center;
+        margin:0%;
+     }
