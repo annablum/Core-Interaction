@@ -1,0 +1,39 @@
+body{
+    
+    color:rgb(206, 199, 199);
+    background-color: rgb(26, 25, 26);
+}
+body :hover{
+    color:#741212;
+    animation: an 4s infinite ease-in-out;
+}
+@keyframes an {
+    from {font-size: 180px ;}
+    to {font-size: 5px;}
+  }
+p{
+    font-size:180px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 25%;
+    max-width: 800px;
+}
+@media screen and (max-width: 768px){
+    body{
+        color:rgb(189, 18, 18);        
+}
+p{
+    font-size:100px;
+    font-family: 'Bebas Neue';
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    max-width: 500px;
+}
+@keyframes an {
+    from {font-size: 100px ;}
+    to {font-size: 5px;}
+  }
+}
