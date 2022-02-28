@@ -24,15 +24,15 @@ body {
         margin:0%;
      }
 
-     @media screen and (max-width:900px) {
+     @media screen and (max-width:700px) {
         body {
             background-color: black;
             cursor: help;
-            background-image: url("references/Untitled-3new.png");
-            background-repeat: no-repeat;
-            background-repeat: no-repeat;
+            background-image: url("references/qm.png");
+            background-size: 100vw;
+            margin-top: 0%;
             background-attachment: fixed;
-            background-size: cover;
+            background-repeat: no-repeat;
            font-family: sans-serif;
         }
      }
