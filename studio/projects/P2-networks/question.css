@@ -1,4 +1,38 @@
+body {
+    background-color: black;
+    cursor: help;
+    background-image: url("references/Untitled-3new.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   font-family: sans-serif;
+}
 
+
+    p {
+        color:white;
+        font-size: 4100px;
+        font-family: 'RanchersRegular';
+        font-weight: normal;
+        font-style: normal;
+        opacity:0%;
+        text-align: center;
+        margin:0%;
+     }
+
+     @media screen and (max-width:900px) {
+        body {
+            background-color: black;
+            background-image: url("references/qm.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100vw;
+            background-position: center center;
+            background-position-x: 0;
+            background-position-y: 0;
+        }
+     }
 
 
 
