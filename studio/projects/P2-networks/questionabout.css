@@ -57,6 +57,7 @@ body {
   }
   body {
     background-image: url("references/outline2.png");
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -74,6 +75,52 @@ strong{
     font-size:60px;
    /* animation: enlarge 10s ease-in-out infinite;*/
 }
+
+@media screen and (max-width:780px) {
+    body {
+        margin-top:5%;
+        color:white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 10px;
+        display:flex;
+        justify-content: center;
+        text-align: justify;
+        background-color: black;
+        cursor: help;
+        line-height:25px;
+      }
+      body {
+        background-image: url("references/outline2.png");
+        background-size: 50vw;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed ;
+        background-size:fixed;
+       font-family: sans-serif;
+      }
+      p{
+        margin-top:5%;
+        margin-left:8%;
+        width: 150px;
+      }
+    strong{
+        font-family: 'RanchersRegular';
+        font-weight: normal;
+        font-style: normal;
+        font-size:40px;
+       /* animation: enlarge 10s ease-in-out infinite;*/
+    }
+    .nav{
+        display:flex;
+        
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top:0%;
+        margin-right: 10%;
+        justify-content: center;
+        gap: 100px;
+        font-size: 50px;
+        }
 
 /*img{
     max-width: 1700px;
@@ -164,4 +211,4 @@ strong{
 img{
     max-width: 1700px;
     object-fit: cover;
-    } */
+    } */}
