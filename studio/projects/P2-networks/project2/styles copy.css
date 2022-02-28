@@ -1,0 +1,150 @@
+a {text-decoration: none;}
+
+.nav{
+    font-family: 'RanchersRegular';
+   font-weight: normal;
+   font-style: normal;
+    margin-top:0%;
+    display:flex;
+   /*direction:column;*/
+    justify-content: center;
+    position: sticky;
+    top: 10px;
+    gap: 120px;
+    font-size: 150px;
+    color:rgba(179, 178, 178, 0.253);
+    font-weight: bold;
+    text-align:center;
+}
+.question{
+    cursor: help;
+}
+.question:hover {
+    color:white;
+    cursor: help;
+}
+.exclam:hover {    
+    color:white;
+}
+.quotes:hover {    
+    color:white;
+}
+.dash:hover {   
+    color:white;
+}
+.apost:hover {
+    color:white;
+    
+}
+.period:hover {
+    color:white;
+}
+.comma:hover {
+    color:white;
+}
+.semi:hover {
+    color:white;
+}
+.col:hover {
+    color:white;
+}
+
+.name{
+   font-family: 'RanchersRegular';
+   font-weight: normal;
+   font-style: normal;
+   font-size: 67px;
+   letter-spacing: 10px;
+   line-height: 150px;
+}
+
+.me{
+    font-family: 'RanchersRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 27px;
+ }
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.first{
+    display:flex;
+    justify-content: center;
+    width: 900px;
+    text-align: justify;
+}
+
+.intro{
+    margin:0%;
+    margin-left: 25%;
+    font-size: 25px;
+    width: 900px;
+    text-align: justify;
+}
+/*h1{
+    font-size: 25px;
+    font-weight: bold;
+}*/
+/*@media screen and (max-width: 900px) {
+    h1{
+        font-size: 15px;
+        font-weight: bold;
+}
+    .intro{
+        margin-top: 0%;
+        margin-left: 6%;
+        font-size: 20px;
+        max-width: 420px;
+        text-align: justify;
+        }
+    .nav{
+    margin-left: 3%;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    font-size: 60px;
+    }
+
+
+}*/
+@media screen and (max-width: 900px){
+
+    .name{
+        font-size: 25px;
+        letter-spacing: 2px;
+        line-height: 60px;
+
+    }
+
+    .intro{
+        margin-left: 10%;
+        margin-top: 0%;
+        font-size: 15px;
+        max-width: 300px;
+        text-align: justify;
+
+        }
+        
+        .me{
+            font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 60px;
+
+        }
+    .nav{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0%;
+    justify-content: center;
+    gap: 30px;
+    font-size: 120px;
+    }
+}
+
+

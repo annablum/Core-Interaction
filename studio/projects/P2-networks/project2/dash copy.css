@@ -1,0 +1,35 @@
+body {
+    background-color: black;
+    /*cursor: help;*/
+    background-image: url("references/dash2.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   font-family: sans-serif;
+}
+
+
+    p {
+        color:white;
+        font-size: 4100px;
+        font-family: 'RanchersRegular';
+        font-weight: normal;
+        font-style: normal;
+        opacity:0%;
+        text-align: center;
+        margin:0%;
+     }
+
+     @media screen and (max-width:900px) {
+        body {
+            background-color: black;
+            background-image: url("references/dashim-06.png");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 97vw;
+            background-position: center center;
+            background-position-x: 1.5vw;
+            background-position-y: 40vh;
+        }
+     }
