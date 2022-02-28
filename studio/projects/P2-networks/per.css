@@ -28,9 +28,9 @@ body {
             background-image: url("references/perim-04.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: 240vw;
+            background-size: 100vw;
             background-position: center center;
-            background-position-x: 10vw;
-            background-position-y: 60vh;
+            background-position-x: 1vw;
+            background-position-y: 30vh;
         }
      }
