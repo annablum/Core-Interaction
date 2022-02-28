@@ -29,7 +29,7 @@ body {
             background-color: black;
             cursor: help;
             background-image: url("references/qm.png");
-            background-position: top;
+            background-position: top top;
             background-size: 200vw;
             margin-top: 0%;
             background-attachment: fixed;
