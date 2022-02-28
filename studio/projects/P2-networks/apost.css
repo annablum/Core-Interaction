@@ -21,15 +21,15 @@ body {
         margin:0%;
      }
 
-     @media screen and (max-width:780px) {
+     @media screen and (max-width:900px) {
         body {
             background-color: black;
-            cursor: help;
-            background-image: url("references/aposttext.png");
-            background-repeat: no-repeat;
+            background-image: url("references/apostim-03.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;
-           font-family: sans-serif;
+            background-size: 97vw;
+            background-position: center center;
+            background-position-x: 0.5vw;
+            background-position-y: 10vh;
         }
      }

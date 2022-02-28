@@ -25,11 +25,12 @@ body {
         body {
             background-color: black;
             cursor: help;
-            background-image: url("references/comma.png");
-            background-repeat: no-repeat;
+            background-image: url("references/commaim-05.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;
-           font-family: sans-serif;
+            background-size: 97vw;
+            background-position: center center;
+            background-position-x: 1.5vw;
+            background-position-y: 20vh;
         }
      }

@@ -25,11 +25,12 @@ body {
         body {
             background-color: black;
             cursor: help;
-            background-image: url("references/col.png");
-            background-repeat: no-repeat;
+            background-image: url("references/colim-06.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;
-           font-family: sans-serif;
+            background-size: 90vw;
+            background-position: center center;
+            background-position-x: 3vw;
+            background-position-y: 0vh;
         }
      }

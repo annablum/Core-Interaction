@@ -25,11 +25,12 @@ body {
         body {
             background-color: black;
             cursor: help;
-            background-image: url("references/semi.png");
-            background-repeat: no-repeat;
+            background-image: url("references/semiim-08.png");
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-size: cover;
-           font-family: sans-serif;
+            background-size: 90vw;
+            background-position: center center;
+            background-position-x: 5vw;
+            background-position-y: 0vh;
         }
      }
