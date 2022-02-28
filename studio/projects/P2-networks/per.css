@@ -2,6 +2,7 @@ body {
     background-color: black;
     /*cursor: help;*/
     background-image: url("references/per.png");
+    background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -18,4 +19,17 @@ body {
         opacity:0%;
         text-align: center;
         margin:0%;
+     }
+
+     @media screen and (max-width:780px) {
+        body {
+            background-color: black;
+            cursor: help;
+            background-image: url("references/per.png");
+            background-repeat: no-repeat;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+           font-family: sans-serif;
+        }
      }

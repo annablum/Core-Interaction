@@ -115,9 +115,13 @@ body{
 @media screen and (max-width: 900px) 
 
 {
-    h1{
-        font-size: 15px;
-        font-weight: bold;
+
+    .name{
+        font-size: 25px;
+        letter-spacing: 2px;
+        line-height: 60px;
+
+    }
 }
     .intro{
         margin-left: 10%;
@@ -125,6 +129,12 @@ body{
         font-size: 15px;
         max-width: 300px;
         text-align: justify;
+
+        }
+        .me{
+            font-size: 15px;
+        letter-spacing: 2px;
+        line-height: 60px;
 
         }
     .nav{
@@ -138,4 +148,4 @@ body{
     }
 
 
-}
+
