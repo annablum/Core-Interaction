@@ -1,0 +1,37 @@
+body {
+    
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display:flex;
+    justify-content: center;
+    text-align: justify;
+    background-color: black;
+    /*cursor: help;*/
+    line-height: 40px;
+  }
+  body {
+    background-image: url("outline2\ copy.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+    background-size: 30vw;
+    margin-top: 5%;
+            background-position-x: 35vw;
+            background-position-y: 0vh;
+   
+  }
+  .text{
+      margin-top: 15%;
+    top:100vh;
+    left: 10px;
+    width: 500px;
+    
+  }
+strong{
+    font-family: 'RanchersRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:60px;
+}
