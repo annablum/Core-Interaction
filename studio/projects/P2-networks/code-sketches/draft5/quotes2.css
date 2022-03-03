@@ -1,0 +1,27 @@
+body{
+    background-image: url("quotesout2\ copy\ 2.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+            background-position-x: 0vw;
+            background-position-y: 0vh;
+    padding: 6.5vw 0 2.5vw 0;
+	width: 64.4vw;
+	margin: 0 auto;
+	position: relative;
+    font-family: Montserrat;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 2.5vw;
+	line-height: 3vw;
+	text-align: justify;
+    background-color: black;
+	color: #ffffff;
+}
+strong{
+    font-family: 'RanchersRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size:60px;
+}

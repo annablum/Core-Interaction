@@ -1,0 +1,22 @@
+body{
+    background-image: url("outline2\ copy\ 2.png");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
+            background-position-x: 1.5vw;
+            background-position-y: 0vh;
+            background-color: black;
+            font-family: Montserrat;
+	font-style: normal;
+	font-weight: 200;
+	font-size: 1.5vw;
+	line-height: 2vw;
+	text-align: justify;
+	color: #ffffff;
+    padding: 6.5vw 0 2.5vw 0;
+	width: 80vw;
+	margin: 0 auto;
+	position: relative;
+}
