@@ -291,7 +291,7 @@ strong {
 	transition-delay: 5s;*/
 }
 
-@keyframes show {
+/*@keyframes show {
 	0% {
 		opacity: 0;
 	}
@@ -306,7 +306,7 @@ strong {
 	100% {
 		opacity: 0;
 	}
-}
+}*/
 
 @media screen and (max-width: 800px) {
 	.punctuation-text {
