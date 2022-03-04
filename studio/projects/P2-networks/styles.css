@@ -211,75 +211,75 @@ strong {
 }
 
 .question {
-	background-image: url(/img/question-bg-start.png);
+	background-image: url(img/question-bg-start.png);
 }
 
 .question1 {
-	background-image: url(/img/question-bg.svg);
+	background-image: url(img/question-bg.svg);
 }
 
 .exclam {
-	background-image: url(/img/exclam-bg-start.png);
+	background-image: url(img/exclam-bg-start.png);
 }
 
 .exclam1 {
-	background-image: url(/img/exclam-bg.svg);
+	background-image: url(img/exclam-bg.svg);
 }
 
 .quotes {
-	background-image: url(/img/quotes-bg-start.png);
+	background-image: url(img/quotes-bg-start.png);
 }
 
 .quotes1 {
-	background-image: url(/img/quotes-bg.svg);
+	background-image: url(img/quotes-bg.svg);
 }
 
 .dash {
-	background-image: url(/img/dash-bg-start.png);
+	background-image: url(img/dash-bg-start.png);
 }
 
 .dash1 {
-	background-image: url(/img/dash-bg.svg);
+	background-image: url(img/dash-bg.svg);
 }
 
 .apost {
-	background-image: url(/img/apost-bg-start.png);
+	background-image: url(img/apost-bg-start.png);
 }
 
 .apost1 {
-	background-image: url(/img/apost-bg.svg);
+	background-image: url(img/apost-bg.svg);
 }
 
 .per {
-	background-image: url(/img/per-bg-start.png);
+	background-image: url(img/per-bg-start.png);
 }
 
 .per1 {
-	background-image: url(/img/per-bg.svg);
+	background-image: url(img/per-bg.svg);
 }
 
 .comma {
-	background-image: url(/img/comma-bg-start.png);
+	background-image: url(img/comma-bg-start.png);
 }
 
 .comma1 {
-	background-image: url(/img/comma-bg.svg);
+	background-image: url(img/comma-bg.svg);
 }
 
 .col {
-	background-image: url(/img/col-bg-start.png);
+	background-image: url(img/col-bg-start.png);
 }
 
 .col1 {
-	background-image: url(/img/col-bg.svg);
+	background-image: url(img/col-bg.svg);
 }
 
 .semi {
-	background-image: url(/img/semi-bg-start.png);
+	background-image: url(img/semi-bg-start.png);
 }
 
 .semi1 {
-	background-image: url(/img/semi-bg.svg);
+	background-image: url(img/semi-bg.svg);
 }
 
 .punctuation-text {
