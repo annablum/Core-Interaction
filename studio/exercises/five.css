@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(91, 88, 60);
+}
+
+p{
+    font-size:120px;
+    color:khaki;
+    font-family: 'Henny Penny', cursive;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 30%;
+    max-width: 700px;
+}
+body :hover{
+    animation: an 6s infinite ease-in-out;
+}
+@keyframes an {
+0% {color:rgb(233, 228, 179);
+    font-size:120px;
+filter:blur(0)}
+  50% {color:rgb(7, 36, 55);
+    font-size:130px;
+filter: blur(6px);}
+  100% {color:rgb(233, 228, 179);
+    font-size:120px;
+    filter:blur(0);
+}}
+@media screen and (max-width: 768px){
+    p{
+        margin-left:3%;
+    max-width: 400px;
+        margin-top: 3%;
+       
+        font-size:40px; 
+        color: rgb(222, 122, 35);
+}
+@keyframes an {
+    0% {color:rgb(179, 212, 233);
+        font-size:40px;
+    filter:blur(0)}
+      50% {color:rgb(7, 36, 55);
+        font-size:70px;
+    filter: blur(6px);}
+      100% {color:rgb(179, 212, 233);
+        font-size:40px;
+        filter:blur(0);
+    }}
+}
+
+

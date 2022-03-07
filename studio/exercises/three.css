@@ -1,0 +1,23 @@
+
+
+div{
+    font-size:180px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin-top: 0%;
+color:coral;
+}
+div :hover{
+    animation: an 2s infinite ease-in-out;
+    
+}
+@keyframes an {
+    from {font-family:  'Playfair Display', serif;}
+    to {font-family: 'Amatic SC', cursive;}
+  }
+  @media screen and (max-width: 768px){
+    div{
+        font-size:80px; 
+        color: rosybrown;  
+             
+}}

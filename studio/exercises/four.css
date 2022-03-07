@@ -1,0 +1,25 @@
+body{
+    background-color: powderblue;
+    font-size:100px;
+    font-family: 'Audiowide', cursive;
+    color:slateblue;
+    text-align: center;
+}
+
+    body :hover{
+        font-size:140px;
+        animation: an 5s infinite ease-in-out;
+    }
+    @keyframes an {
+        from {filter:blur(0)}
+        to {filter: blur(18px);}
+      }
+      @media screen and (max-width: 768px){
+        div{
+            font-size:70px; 
+            color: plum;  }
+
+            body :hover{
+                font-size:70px;
+    }}
+    
