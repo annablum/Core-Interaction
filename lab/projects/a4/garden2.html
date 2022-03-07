@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Anna garden</title>
+  </head>
+  <body>
+    <div class="grass"></div>
+    <div class="flower1"></div>
+    <div class="f1"></div>
+    <div class="flower2"></div>
+    <div class="f2"></div>
+    <div class="flower3"></div>
+    <div class="f3"></div>
+    <div class="flower4"></div>
+    <div class="f4"></div>
+    <div class="flower5"></div>
+    <div class="f5"></div>
+    <div class="flower6"></div>
+    <div class="f6"></div>
+    <div class="tree"></div>
+    <div class="leaves"></div>
+    <div class="bench"></div>
+    <div class="bench1"></div>
+    <div class="benchback"></div>
+    <div class="feet1"></div>
+    <div class="feet2"></div>
+    <div class="cloud"></div>
+    <div class="cloud1"></div>
+    <div class="cloud2"></div>
+    <div class="cloud3"></div>
+    <div class="cloud4"></div>
+    <div class="cloud5"></div>
+    <div class="star"></div>
+   
+      <style>
+body{
+    background-color: #34305f;
+    animation: day 50s infinite;
+}
+
+@keyframes day {
+  0% {background-color:#34305f;}
+50%  {background-color:#749ac7;}
+100% {background-color:#34305f;}}
+
+.flower1{
+    position:absolute;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(233, 173, 173);
+    border-radius: 50%;
+    left:500px;
+    top:800px;
+}
+
+.cloud{
+    position:absolute;
+    height: 30px;
+    width: 300px;
+    background-color: rgb(151, 151, 163);
+    border-radius: 40%;
+    opacity:70%;
+    top: 70px;
+    left: 40px;
+    animation: cloudmove 40s infinite;
+}
+
+@keyframes cloudmove {
+  from {left: 20px;}
+  to {left: 1200px;} }
+
+  .cloud1{
+    position:absolute;
+    height: 50px;
+    width: 800px;
+    background-color: rgb(189, 188, 209);
+    border-radius: 40%;
+    opacity:70%;
+    top: 120px;
+    right: 50px;
+    animation: cloudone 50s infinite;
+}
+
+@keyframes cloudone {
+  from {right: 50px;}
+  to {right: 1200px;} }
+
+  .cloud2{
+    position:absolute;
+    height: 50px;
+    width: 360px;
+    background-color: rgb(189, 188, 209);
+    border-radius: 40%;
+    opacity:50%;
+    top: 220px;
+    right: 970px;
+}
+
+.cloud3{
+    position:absolute;
+    height: 70px;
+    width: 460px;
+    background-color: rgb(218, 217, 230);
+    border-radius: 40%;
+    opacity:50%;
+    top: 320px;
+    right: 70px;
+}
+.cloud4{
+    position:absolute;
+    height: 40px;
+    width: 760px;
+    background-color: rgb(179, 179, 187);
+    border-radius: 40%;
+    opacity:50%;
+    top: 370px;
+    right: 990px;
+}
+
+.cloud5{
+    position:absolute;
+    height: 90px;
+    width: 960px;
+    background-color: rgb(218, 217, 230);
+    border-radius: 40%;
+    opacity:30%;
+    top: 110px;
+    left: 70px;
+}
+
+.f1{
+    position:absolute;
+    background-color: rgb(230, 152, 51);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left:120px;
+    top:800px;
+}
+.f1:hover{
+    opacity: 60%;
+    transform: scale(0.5, 0.5);
+}
+
+.flower2{
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(168, 120, 247);
+    border-radius: 50%;
+    left:900px;
+    top:870px;
+}
+
+.f2{
+    position:absolute;
+    background-color: rgb(243, 147, 147);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left:600px;
+    top:820px;
+}
+.f2:hover{
+    opacity: 60%;
+    transform: scale(0.5, 0.5);
+}
+.flower3{
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(247, 120, 120);
+    border-radius: 50%;
+    left:1200px;
+    top:770px;
+}
+
+.f3{
+    position:absolute;
+    background-color: rgb(213, 130, 252);
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    left:700px;
+    top:710px;
+}
+.f3:hover{
+    opacity: 60%;
+    transform: scale(0.5, 0.5);
+}
+.flower4{
+    position:absolute;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(238, 194, 158);
+    border-radius: 50%;
+    left:1400px;
+    top:900px;
+}
+.f4{
+    position:absolute;
+    background-color: rgb(243, 223, 252);
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    left:1000px;
+    top:850px;
+}
+.f4:hover{
+    opacity: 60%;
+    transform: scale(0.5, 0.5);
+}
+.flower5{
+    position:absolute;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(168, 120, 247);
+    border-radius: 50%;
+    left:200px;
+    top:720px;
+}
+.f5{
+    position:absolute;
+    background-color: rgb(248, 141, 18);
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    left:400px;
+    top:760px;
+}
+.f5:hover{
+    opacity: 60%;
+    transform: scale(0.5, 0.5);
+}
+.flower6{
+    position:absolute;
+    height: 90px;
+    width: 90px;
+    background-color: rgb(202, 158, 238);
+    border-radius: 50%;
+    left:400px;
+    top:900px;
+}
+.f6{
+    position:absolute;
+    background-color: rgb(238, 225, 151);
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    left:1300px;
+    top:740px;
+}
+.f6:hover{
+    opacity: 60%;
+    transform: scale(0.5, 0.5);
+}
+.tree{
+    position:absolute;
+    height:400px;
+    width:20px;
+    background-color: rgb(37, 22, 6);
+    left: 1000px;
+    top:400px;
+}
+.leaves{
+    position:absolute;
+    height:400px;
+    width:300px;
+    border-radius: 70%;
+    background-color: rgb(1, 58, 27);
+    left: 860px;
+    top: 200px;
+    animation: leavescolor 40s infinite;
+}
+@keyframes leavescolor {
+  0% {background-color:rgb(1, 58, 27);}
+50%  {background-color:rgb(255, 179, 47);}
+100% {background-color:rgb(1, 58, 27);}}
+
+.bench{
+    position:absolute;
+    height: 70px;
+    width: 300px;
+    background-color: rgb(114, 79, 42);
+    left: 200px;
+    top: 600px;
+}
+
+.bench1{
+    position:absolute;
+    height: 20px;
+    width: 300px;
+    background-color: rgb(56, 44, 32);
+    left: 200px;
+    top: 670px;
+}
+
+.benchback{
+    position:absolute;
+    height: 100px;
+    width: 270px;
+    background-color: rgb(102, 71, 38);
+    left: 215px;
+    top: 500px;
+}
+
+.feet1{
+    position:absolute;
+    height: 100px;
+    width: 40px;
+    background-color: rgb(114, 79, 42);
+    left: 200px;
+    top: 605px;
+}
+
+.feet2{
+    position:absolute;
+    height: 100px;
+    width: 40px;
+    background-color: rgb(114, 79, 42);
+    left: 460px;
+    top: 605px;
+}
+
+
+
+
+
+.grass{
+    background-color: rgb(59, 88, 39);
+    width:1600px;
+    height: 300px;
+    position:absolute;
+    left: 50px;
+    top: 700px;
+    transform: skew(40deg)
+}
+      </style>
+      </body>
