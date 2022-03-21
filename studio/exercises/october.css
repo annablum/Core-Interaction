@@ -1,11 +1,38 @@
-.day{
+ .month{
+     color:rgb(154, 61, 4);
+     font-size: 100px;
+     font-family: 'Carter One', cursive;
+     background-color: blanchedalmond;
+
+ }
+ .day{
     display: flex;
     flex-direction: row;
+    flex-wrap:wrap;
+    background-color: rgb(247, 130, 41);
     align-items: center;
-    justify-content: space-around;
-    gap:30px;
-    flex-wrap: wrap;
-    background-color: brown;
- 
+    justify-content: center;
+    gap:15vw;    
 
+}
+
+.week{
+    font-size: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    background-color: rgb(154, 61, 4);
+    align-items: center;
+    justify-content: center;
+    gap:15vw;    
+
+}
+
+p{
+    display: block;
+    width: 1vw;
+    text-align: center;
+    color:blanchedalmond;
+    font-size: 37px;
+    font-family: 'Carter One', cursive;
 }
