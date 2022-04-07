@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik+Glitch&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>WORLD WIDE WEB</h1>
+<p>The WorldWideWeb (W3) is a wide-area hypermedia information retrieval <br>
+    initiative aiming to give universal access to a large universe of documents. </p>
+
+<div class="mytext"><p>Consider this the start, the rise, the great beginning<br>
+the web was <span class="constr"><a href="underconstruction.html">advancing</a></span>, <span class="data"><a href="data.html">growing</a></span>, and bringing more <span class="data"><a href="data.html">good</a></span> and ... <span class="data"><a href="data.html">bad</a></span> too</p></div>
+</body>
+<style>
+     a{
+        text-decoration:none;
+    }    
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color: black;
+    color: rgb(7, 213, 7);
+    text-align: center;
+    line-height: 2em;
+    text-shadow: 1px 1px 3px rgb(39, 69, 12);
+}
+.mytext{
+    
+    margin-top: 10%;
+    animation: show 20s 1;
+	transition-delay: 20s;
+
+}
+
+@keyframes show {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.constr:hover, .data:hover{
+font-size: 3em;
+}
+
+</style>
