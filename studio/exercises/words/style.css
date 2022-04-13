@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html,body{
+background-color: rgb(198, 238, 238);
+color:rgb(35, 11, 58);
+}
+
+	p{
+		/*border-top: 1px solid black;
+		border-bottom: 1px solid black;*/
+		text-align: left;
+		padding: 10px 50px;
+		width:70em;
+		font-size: 1em;
+		line-height: 2em;
+		margin-left: 15%;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+  }
+
+
+
+h1{
+	
+	text-align: center;
+	padding:14px;
+	font-size: 7em;
+	color:rgb(175, 141, 255);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+select{
+/*	font-size:35px;
+	margin:14px;*/
+	margin: 30px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
