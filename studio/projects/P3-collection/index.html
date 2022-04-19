@@ -1,39 +1,65 @@
 <html lang="en">
   <head>
-    <title>My are.na channel</title>
+    <title>Roads of Singapore</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <style>
-      .myButton {
-  margin-left: 40%;
+       .myButton {
+  margin-left: 33%;
   margin-top:2%;
-	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
-	background-color:#c62d1f;
+background:linear-gradient(to bottom, rgb(41, 255, 30) 5%, #18980c 100%);
+	background-color:#5fd018;
 	border-radius:42px;
-	border:10px solid #d02718;
+	border:10px solid rgb(41, 255, 30);
 	display:inline-block;
 	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
+	color:#306108;
 	font-size:21px;
 	padding:7px 76px;
 	text-decoration:none;
+  font-family: 'Roboto Condensed', sans-serif;
 
 }
 .myButton:hover {
-	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
-	background-color:#f24437;
+	background:linear-gradient(to bottom, #18980c 5%, #5fd018 100%);
+	background-color:#18980c;
 }
 .myButton:active {
 	position:relative;
 	top:1px;
 }
 
+.quizbut {
+  margin-left: 2%;
+	box-shadow:inset 0px 1px 0px 0px #daedae;
+	background:linear-gradient(to bottom, rgb(41, 255, 30) 5%, #5cb811 100%);
+	background-color:rgb(41, 255, 30);
+	border-radius:42px;
+	border:5px solid #268a16;
+	display:inline-block;
+	cursor:pointer;
+	color:#306108;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:32px 19px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px rgb(41, 255, 30);
+}
+.quizbut:hover {
+	background:linear-gradient(to bottom, #daedae 5%, #77d42a 100%);
+	background-color:#daedae;
+}
+.quizbut:active {
+	position:relative;
+	top:1px;
+}
       :root {
         --margin: 10px;
+        
       }
       html, body {
         margin: 0;
@@ -43,7 +69,7 @@
       body {
         min-height: 100vh;
         width: 100%;
-        background-color: #80D856;
+        background-color: #daedae;
         font-family: 'Roboto Condensed', sans-serif;
       }
 
@@ -56,7 +82,8 @@
       }
 
       h1 {
-        color: white;
+        color: #0c3f98;
+        display:none;
       }
       
       #contents {
@@ -76,16 +103,75 @@
 
       .block {
         padding: var(--margin);
-        background-color: white ;
+        background-color:rgb(21, 150, 14) ;
       }
+h2{
+ 
+  
+  color: rgb(21, 150, 14);
+  font-size:5em;
+  text-align: center;
+}
+      p{
+  
+        color: rgb(21, 150, 14);
+        font-size:3em;
+        text-align: center;
+    }
+
+    .pop-outin {
+  animation: 5s anim-popoutin ease infinite;
+}
+
+@keyframes anim-popoutin {
+  0% {
+    color: rgb(21, 150, 14);
+    transform: scale(0);
+    opacity: 0;
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  25% {
+    color: rgb(41, 255, 30);
+    transform: scale(2);
+    opacity: 1;
+    text-shadow: 3px 10px 5px rgb(21, 150, 14);
+  }
+  50% {
+    color: rgb(21, 150, 14);
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgb(21, 150, 14);
+  }
+  100% {
+    /* animate nothing to add pause at the end of animation */
+    transform: scale(1);
+    opacity: 1;
+    text-shadow: 1px 0 0 rgb(21, 150, 14);
+  }
+}
+
+.fromtop {
+  animation: 2s anim-fromtop linear infinite;
+}
+@keyframes anim-fromtop {
+  0% { opacity: 0; transform: translateY(-100%);}
+  25% { opacity: 1; transform: translateY(0%);}
+  50% {
+  }
+  100% {
+  }
+}
+
     </style>
   </head>
 
   <body>
-    <a href="#" class="myButton">BACK TO LEARNING</a>
+    <a href="#" class="quizbut">QUIZ </a>
+    <a href="learn.html" class="myButton">BACK TO LEARNING</a>
     <div class="wrapper">
-    <h1> <span id="channel-title"></span>.</h1>
-
+    <h1> <span id="channel-title"></span></h1>
+    <h2 class="pop-outin"><strong>GREAT JOB!</strong></h2> <p>seems like you've memorized 100 roads of Singapore,<br> take a look, explore the scnery and test your memory!</p>
+    
       <ul id="contents">
 
       </ul>
