@@ -3,12 +3,29 @@
   <head>
     <meta charset="utf-8">
     <title>Anna garden</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Pacifico&display=swap" rel="stylesheet">
   </head>
   <body>
+
+    <div class="text">welcome to my garden</div>
 
   
     <script>
         alert('welcome to my garden -Anna :)');
+
+        let textEl = document.querySelector('.text');
+            let colorChange = () => {
+                let colors = ['plum', 'pink', 'skyblue', 'lightgreen'];
+                let random = Math.random() * (colors.length - 1);
+                let roundedRandom = Math.round(random);
+                let randomColor = colors[roundedRandom];
+                textEl.style.color = randomColor;
+            }
+            textEl.addEventListener('click', colorChange);
+
+
       </script>
 
     <div class="grass"></div>
@@ -43,6 +60,12 @@
 body{
     background-color: #34305f;
     animation: day 50s infinite;
+}
+
+.text{
+    font-size: 5em;
+    font-family: 'Pacifico', cursive;
+    color: rgb(233, 173, 173);
 }
 
 @keyframes day {
