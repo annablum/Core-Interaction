@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Amatic+SC:wght@700&family=Fredoka+One&family=Grape+Nuts&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="middle"></div>
+<div class="middle middle2"></div>
+<div class="middle middle3"></div>
+
+<div class="top"></div>
+<div class="top top2"></div>
+<div class="top top3"></div>
+
+<div class="box">
+    <div id="clock"></div> 
+  </div>
+</body>
+
+<style>
+    .middle {
+  animation:slide 5s ease-in-out infinite alternate;
+  background-image: linear-gradient(-100deg, rgb(255, 186, 113) 50%, rgb(250, 96, 0) 50%);
+  bottom:0;
+  left:-80%;
+  opacity:.5;
+  position:fixed;
+  right:-60%;
+  top:0;
+  z-index:-1;
+}
+
+.middle2 {
+  animation-direction:alternate-reverse;
+  animation-duration:3s;
+}
+
+.middle3 {
+  animation-duration:2s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-15%);
+  }
+  100% {
+    transform:translateX(15%);
+  }
+}
+
+.top {
+  animation:slide 5s ease-in-out infinite alternate;
+  background-image: linear-gradient(-25deg, rgb(247, 171, 236) 50%, rgb(233, 221, 80)50%);
+  height:30em;
+  bottom:5em;
+  left:-50%;
+  opacity:.5;
+  position:fixed;
+  right:-50%;
+  top:0;
+
+}
+
+.top2 {
+  animation-direction:alternate-reverse;
+  animation-duration:3s;
+}
+
+.top3 {
+  animation-duration:2s;
+}
+
+@keyframes slide {
+  0% {
+    transform:translateX(-15%);
+  }
+  100% {
+    transform:translateX(15%);
+  }
+}
+html {
+  height:100%;
+}
+
+body {
+  margin:0;
+}
+.box {
+  background-color:rgba(246, 252, 128, 0.8);
+  border-radius:10em;
+  left:50%;
+  padding:5vh;
+  position:fixed;
+  text-align:center;
+  top:50%;
+  transform:translate(-50%, -50%);
+  width:90em;
+}
+#clock {
+    /*font-family: 'Alfa Slab One', cursive;*/
+    font-family: 'Fredoka One', cursive;
+  font-size:13em;
+  color:rgb(117, 189, 22);
+}
+
+.box:hover{
+    background-color:rgba(159, 252, 128, 0.8);
+}
+
+</style>
+
+    <script>
+     function currentTime() {
+  var date = new Date(); /* creating object of Date class */
+  var hour = date.getHours();
+  var min = date.getMinutes();
+  var sec = date.getSeconds();
+  hour = updateTime(hour);
+  min = updateTime(min);
+  sec = updateTime(sec);
+  document.getElementById("clock").innerText = hour + " : " + min + " : " + sec; /* adding time to the div */
+  var t = setTimeout(function(){ currentTime() }, 1000); /* setting timer */
+}
+
+function updateTime(k) {
+  if (k < 10) {
+    return "0" + k;
+  }
+  else {
+    return k;
+  }
+}
+
+currentTime(); /* calling currentTime() function to initiate the process */
+
+
+</script>
