@@ -89,24 +89,24 @@ h6 {
 
 
 body {
-	background-color: #F9F2E5;
+	background-color: #2E48A7;
 	font-family: 'Gayathri', sans-serif;
 }
 
 .head-menu {
-	background-color: #2E48A7;
+	background-color: #c7c3ba;
 	font-size: 3vw;
 	text-align: right;
 	padding: 5px 50px;
 }
 
 .head-menu a {
-	color: #F2EEE5;
+	color: #2E48A7;
 	z-index: 10;
 }
 
 .head-menu a:hover {
-	color: #c7c3ba;
+	color: #2E48A7;
 	text-decoration: underline;
 }
 
@@ -114,7 +114,8 @@ body {
 	font-size: 25vw;
 	margin: 5%;
 	text-align: center;
-	color: #2E48A7;
+	color: #c7c3ba;
+
 	
 	z-index: 1;
 	pointer-events: none;
@@ -133,7 +134,7 @@ body {
 .welcome-text {
 	font-size: 3vw;
 	text-align: center;
-	color: #2E48A7;
+	color: #c7c3ba;
 	line-height: 73%;
 	z-index: 2;
 	pointer-events: none;
